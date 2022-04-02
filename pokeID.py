@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from pokeList import poke_list
 
 load_dotenv()
-TOKEN = 'OTU5MTk4NTAxNjY3OTk1NzI5.YkYZNw.WiUvbgOlPtcfM7cIsyXrxdS_2t8'
+TOKEN = 'DISCORD_TOKEN'
 
 with open("trainer_list.json", 'rb') as file:
     if file.read(2) != '{}':
